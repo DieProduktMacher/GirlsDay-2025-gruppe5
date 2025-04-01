@@ -5,17 +5,26 @@ body {
 
 
 h1 {
-  /* margin-left: 20px; */
   text-align: center;
 }
+
+
+h2 {
+  text-align: center;
+}
+
+
 p {
+  font-size: larger;
+  font-weight: bold;
   margin-left: auto;
   margin-right: auto;
   padding-left: 450px;
-
 }
 
+
 ul{
+  font-size:larger ;
   display: block;
   list-style-position: inside;
   margin-left: auto;
