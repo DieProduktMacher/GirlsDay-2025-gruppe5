@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="my_style.css">
+    </head>
+
+
+    <body style="background-color:rgb(255, 180, 221)">
+
+        <h1 style=" background-color:rgb(255, 180, 221); color: rgb(254, 247, 251); font-size: 85px">
+            Quiz
+        </h1>
+
+<p style="color: aliceblue;font-size: 40px;" >
+    Wie heiße ich?
+</p>
+<button class="button" onclick="ButtonClick()">a) Bambi</button>
+<button class="button" onclick="ButtonClick()" >b) Bamby</button>
+<button class="button" onclick="ButtonClick()">c) Bambie</button>
+<p style="color: aliceblue;font-size: 40px;" >
+    Was hasse ich?
+</p>
+<button class="button" onclick="ButtonClick()">a) Katzen</button>
+<button class="button" onclick="ButtonClick()">b) Vögel</button>
+<button class="button" onclick="ButtonClick()">c) Charly</button>
+
+<p style="color: aliceblue;font-size: 40px;" >
+    Mag ich rennen?
+</p>
+<button class="button" onclick="ButtonClick()">a) Ja</button>
+<button class="button" onclick="ButtonClick()">b) Nein</button>      
+    </body>
+
+    <script>
+        function ButtonClick() {
+            let value= event.target.textContent
+            if (value === 'c) Bambie' || value === 'a) Katzen' || value === 'b) Nein' ) {
+                window.alert("Richtig")  
+            } else {
+                window.alert("Falsch")   
+            }
+            
+        }
+    </script>
+    
+</html>
